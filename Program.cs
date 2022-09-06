@@ -2,7 +2,7 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 4
 
-Console.WriteLine("\n Задача 21");
+Console.WriteLine("\n Задача 41");
 Console.Write("Введите элементы(через пробел): ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = arr.Count(x => x > 0);
